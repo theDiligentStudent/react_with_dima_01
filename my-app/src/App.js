@@ -24,8 +24,10 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className='App'>
+    // <div className='App'>
+    <div>
       <p> Hello, Friends!</p>
+      <p> Simple HTML</p>
     </div>
   );
 };
