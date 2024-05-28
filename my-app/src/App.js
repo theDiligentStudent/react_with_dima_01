@@ -9,14 +9,23 @@ const App = () => {
     //   в нашем случае это - div-ка
     //      а ВНУТРИ НЕЁ --- уже  --- ЛЕЖИТ- В С Ё  ОСТАЛЬНОЕ
 
+    //  <div>
+    //   </div>    НЕ допускается      !!!!!!
+
     <div className='App'>
-      {/* <div> */}
+
+{/* допускается */}
+      <div></div>    
+
       <ul>
         <li>html</li>
         <li>css</li>
         <li>js</li>
         <li>React</li>
       </ul>
+
+      <div></div>
+      <div></div>
     </div>
   );
 };
