@@ -1,37 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
 
-// Ниже ----
-// Три РАБОЧИХ Варианта Объявления Ф.-и
-// Дима остановился на Последнем - Стрелке
-
-// function Header() {  // РАБОЧИЙ вариант
-//     return(
-//         <div>
-//             <a>News</a>
-//             <a>Messages</a>
-//             <a>About Us</a>
-//         </div>
-//     )
-// }
-
-// const Header = function() {  // РАБОЧИЙ вариант
-//     return <div>
-//         <a>News</a>
-//         <a>Messages</a>
-//         <a>About Us</a>
-//     </div>
-// }
-
-const Header = () => {
-  // РАБОЧИЙ вариант
+const App = () => {
   return (
     <div>
-      <a>News</a>
-      <a>Messages</a>
-      <a>About Us</a>
+      <Header />
+      <Technologies />;
     </div>
   );
 };
 
-export default Header;
+const Header = () => {
+  return (
+    <div>
+      <a href='#'>News</a>
+      <a href='#'>Messages</a>
+      <a href='#'>About Us</a>
+    </div>
+  );
+};
+
+const Technologies = () => {
+  return (
+    <div>
+      <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js </li>
+        <li>react </li>
+      </ul>
+    </div>
+  );
+};
+
+// Technologies
+
+export default App;
