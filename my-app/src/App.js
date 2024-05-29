@@ -1,33 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
 
-const App = () => {
+// Ниже ----
+// Три РАБОЧИХ Варианта Объявления Ф.-и
+// Дима остановился на Последнем - Стрелке
+
+// function Header() {  // РАБОЧИЙ вариант
+//     return(
+//         <div>
+//             <a>News</a>
+//             <a>Messages</a>
+//             <a>About Us</a>
+//         </div>
+//     )
+// }
+
+// const Header = function() {  // РАБОЧИЙ вариант
+//     return <div>
+//         <a>News</a>
+//         <a>Messages</a>
+//         <a>About Us</a>
+//     </div>
+// }
+
+const Header = () => {   // РАБОЧИЙ вариант
   return (
-    // <div></div>   ----- НЕ допустимо!!!!!!!
-    // Должен быть ---- ТОЛЬКО ОДИН ---- Корневой Узел
-    // return должен Возвращать  ---- ЛИШЬ ОДНО - З. ---
-    //   в нашем случае это - div-ка
-    //      а ВНУТРИ НЕЁ --- уже  --- ЛЕЖИТ- В С Ё  ОСТАЛЬНОЕ
-
-    //  <div>
-    //   </div>    НЕ допускается      !!!!!!
-
-    <div className='App'>
-
-{/* допускается */}
-      <div></div>    
-
-      <ul>
-        <li>html</li>
-        <li>css</li>
-        <li>js</li>
-        <li>React</li>
-      </ul>
-
-      <div></div>
-      <div></div>
+    <div>
+      <a>News</a>
+      <a>Messages</a>
+      <a>About Us</a>
     </div>
   );
 };
 
-export default App;
+export default Header;
