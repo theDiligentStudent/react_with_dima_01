@@ -23,7 +23,8 @@ import './App.css';
 //     </div>
 // }
 
-const Header = () => {   // РАБОЧИЙ вариант
+const Header = () => {
+  // РАБОЧИЙ вариант
   return (
     <div>
       <a>News</a>
