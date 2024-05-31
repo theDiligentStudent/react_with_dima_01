@@ -5,17 +5,20 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Technologies />;
+      <Head />
+      <Technologies />
     </div>
   );
 };
 
+const Head = () => {};
+
 const Header = () => {
   return (
     <div>
-      <a href='#'>News</a>
-      <a href='#'>Messages</a>
-      <a href='#'>About Us</a>
+      <a href='#s'>Home </a>
+      <a href='#'> Messages </a>
+      <a href='#'> About Us</a>
     </div>
   );
 };
@@ -26,13 +29,11 @@ const Technologies = () => {
       <ul>
         <li>html</li>
         <li>css</li>
-        <li>js </li>
-        <li>react </li>
+        <li>js</li>
+        <li>react</li>
       </ul>
     </div>
   );
 };
-
-// Technologies
 
 export default App;
