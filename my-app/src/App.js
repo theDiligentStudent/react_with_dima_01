@@ -1,33 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Content from './components/Contents';
 
-import Header from './components/Header.js';
-// import Header from './components/Header';  // Правильный вариант БЕЗ .js
+// 1/06/24
 
-
-// НЕПРИЯТНАЯ ОШИБКА!!!!!
-//   НЕПОКАЗЫВАЕМАЯ нам редактором......
-//   ----
-//   Ком.-т (по Ош.-е - НЕдосмотру ВЗЯТА НЕ ИЗ ТОГО Фа.-а !!!!!)
-// import Header from './components/Technologies.js';
-
-import Technologies from './components/Technologies.js'
-// import Technologies from './components/Technologies'; // Правильный вариант БЕЗ .js
-
+// Удаляем ---- ВСЁ !!!!!!  ____   Что Делали Перед этим
+// (почти Всё)
+// импорты, файлы с Ком-ми (у меня для этого была Отдельная Пп.)
+// и
+// Начинам Всё ---- с ЧистогО Листа
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Head />
-      <Technologies />
+      <Sidebar />
+      <Content/>
     </div>
   );
 };
-
-
-
-const Head = () => {};
-
 
 export default App;
