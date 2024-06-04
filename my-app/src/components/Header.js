@@ -1,15 +1,12 @@
-
 import React from 'react'
-import App from './../App';
-import image_1 from './../images/project_1/image_1.jpg'
-
+import image_1 from './../images/project_1/image_1.jpg';
 
 const Header = () => {
-    return (
-        <header>
-            <img src={image_1}/>
-        </header>
-    )
-}
+  return (
+    <header className='header'>
+      <div><img src={image_1}/></div>
+    </header>
+  );
+};
 
 export default Header

@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import Content from './components/Contents';
+import Content from './components/Content';
+
 
 // 1/06/24
 
@@ -12,14 +13,14 @@ import Content from './components/Contents';
 // и
 // Начинам Всё ---- с ЧистогО Листа
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Sidebar />
-      <Content/>
-    </div>
-  );
-};
+const App = () =>{
+    return(
+        <div className='app-wrapper'>
+            <Header />
+            <Sidebar />
+            <Content />
+        </div>
+    )
+}
 
-export default App;
+export default App
