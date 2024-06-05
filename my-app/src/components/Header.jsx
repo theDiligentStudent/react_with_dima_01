@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div><img src={image_1}/></div>
+      {/* Hello */}
     </header>
   );
 };
