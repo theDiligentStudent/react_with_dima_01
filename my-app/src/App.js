@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+
+// Исправлял Ош.-и с Помощью ДжиПиТи:
+// import Sidebar from './component.jsx/Sidebar';
+
+import Header from './components_jsx/Header';
+import Sidebar from './components_jsx/Sidebar';
+import Profile from './components_jsx/Profile';
+
+
+// в ПРЕДЫДУЩЕЙ Версии проекта:
 // import Content from './components/Content';
-import Profile from './components/Profile';
 
 // 1/06/24
 
@@ -19,7 +26,11 @@ const App = () => {
       <Header />
       <Sidebar />
       <Profile />
-      Hello
+      
+      {/* Hello */}
+
+ {/* Исправлял Ош.-и с Помощью ДжиПиТи: */}
+      {/* <Sidebar /> */}
     </div>
   );
 };

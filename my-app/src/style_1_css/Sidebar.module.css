@@ -1,0 +1,10 @@
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 20px;
+    color: #333;
+  }

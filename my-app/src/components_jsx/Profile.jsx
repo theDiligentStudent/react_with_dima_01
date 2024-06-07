@@ -1,4 +1,8 @@
 import React from 'react';
+
+    // СТАРАЯ --- УЖЕ НЕ РАБОТАЮЩАЯ --- запись
+// import classes from './../style_css/Profile.module.css'
+import styles from './../style_css/Profile.module.css'
 import image_3 from './../images/project_1/image_3.png';
 
 
@@ -26,7 +30,10 @@ import image_3 from './../images/project_1/image_3.png';
 
 const Profile = () => {
   return (
-    <div className='content'>
+    // СТАРАЯ --- УЖЕ НЕ РАБОТАЮЩАЯ --- запись
+    // <header className="content">
+
+    <div className={styles.content}>
       <div>
         <img src={image_3} />
       </div>
