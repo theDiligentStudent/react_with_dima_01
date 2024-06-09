@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from './../style_css/Sidebar.module.css';
+import s from './Sidebar.module.css';
 
 //
 console.log(s);

@@ -1,24 +1,9 @@
 import React from 'react';
 import './App.css';
 
-// Исправлял Ош.-и с Помощью ДжиПиТи:
-// import Sidebar from './component.jsx/Sidebar';
-
-import Header from './components_jsx/Header';
-import Sidebar from './components_jsx/Sidebar';
-import Profile from './components_jsx/Profile';
-
-
-// в ПРЕДЫДУЩЕЙ Версии проекта:
-// import Content from './components/Content';
-
-// 1/06/24
-
-// Удаляем ---- ВСЁ !!!!!!  ____   Что Делали Перед этим
-// (почти Всё)
-// импорты, файлы с Ком-ми (у меня для этого была Отдельная Пп.)
-// и
-// Начинам Всё ---- с ЧистогО Листа
+import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
+import Profile from './components/Profile/Profile';
 
 const App = () => {
   return (
@@ -26,11 +11,6 @@ const App = () => {
       <Header />
       <Sidebar />
       <Profile />
-      
-      {/* Hello */}
-
- {/* Исправлял Ош.-и с Помощью ДжиПиТи: */}
-      {/* <Sidebar /> */}
     </div>
   );
 };

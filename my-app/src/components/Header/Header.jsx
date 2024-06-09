@@ -1,8 +1,8 @@
 import React from 'react';
 
-import s from './../style_css/Header.module.css';
+import s from './Header.module.css';
 
-import image_1 from './../images/project_1/image_1.jpg';
+import image_1 from './../../images/project_1/image_1.jpg';
 
 //
 console.log(s);

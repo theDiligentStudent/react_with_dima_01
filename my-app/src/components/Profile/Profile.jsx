@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './../style_css/Profile.module.css';
-import image_3 from './../images/project_1/image_3.png';
+import s from './Profile.module.css';
+import image_3 from './../../images/project_1/image_3.png';
 
 //
 console.log(s);
