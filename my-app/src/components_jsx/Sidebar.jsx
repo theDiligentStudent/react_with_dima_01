@@ -1,36 +1,27 @@
 import React from 'react';
 
-// СТАРАЯ --- УЖЕ НЕ РАБОТАЮЩАЯ --- запись
-// import classes from './../style_css/Sidebar.module.css'
-import styles from './../style_css/Sidebar.module.css';
+import s from './../style_css/Sidebar.module.css';
 
-// import styles from '../styles_1_css/Sidebar.module.css';
+//
+console.log(s);
 
+//
 const Sidebar = () => {
   return (
-    // СТАРАЯ --- УЖЕ НЕ РАБОТАЮЩАЯ --- запись
-    // <nav className="nav">
-    <nav className={styles.nav}>
-      {/* СТАРАЯ --- УЖЕ НЕ РАБОТАЮЩАЯ --- запись */}
-      {/* <div className="item"> */}
-      <div className={styles.item}>
+    <nav className={s.nav}>
+      <div className={`${s.item} ${s.active}`}>
         <a href='#'>Profile</a>
       </div>
-
-      {/* <div className="item"> */}
-      <div className={styles.item}>
+      <div className={s.item}>
         <a href='#'>Messages</a>
       </div>
-      {/* <div className="item"> */}
-      <div className={styles.item}>
+      <div className={s.item}>
         <a href='#'>News</a>
       </div>
-      {/* <div className="item"> */}
-      <div className={styles.item}>
+      <div className={s.item}>
         <a href='#'>Guests</a>
       </div>
-      {/* <div className="item"> */}
-      <div className={styles.item}>
+      <div className={s.item}>
         <a href='#'>Settings</a>
       </div>
     </nav>

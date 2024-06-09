@@ -1,8 +1,12 @@
 .content {
-    grid-area: c;
-    background-color: blue;
-  }
-  .content img{
-    margin: auto;
-    width: 100%;
-  }
+  grid-area: c;
+  background-color: blue;
+}
+.content img {
+  margin: auto;
+  width: 100%;
+}
+
+.item {
+  color:chocolate;
+}
