@@ -2,9 +2,9 @@
   color: aqua;
 }
 
-
-.item img {
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
+.item .image {
+  width: 60px; /* Set width to 60 pixels */
+  height: auto; /* Let height adjust to maintain aspect ratio */
+  max-height: 120px; /* Limit height to 120 pixels */
+  border-radius: 15px;
 }
