@@ -1,18 +1,24 @@
 import React from 'react';
-import MyPost from './My_post/myPost';
+import NewPost from './new_post/NewPost.jsx';
+import Post from './post/Post.jsx'
 import s from './MyPosts.module.css'
 
 const MyPosts = () => {
   return (
     <div>
+      <div><p></p></div>
       <div>
-        My posts
+        <div>My Post</div>
+      <NewPost/>
         <div className={s.posts}>New posts</div>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
       </div>
       <div>
-        <MyPost/>
-        <MyPost/>
-        <MyPost/>
         <div className={s.item}>Post 2</div>
       </div>
     </div>
