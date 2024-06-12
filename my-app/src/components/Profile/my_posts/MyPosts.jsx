@@ -15,10 +15,10 @@ const MyPosts = () => {
         <p></p>
         <div className={s.posts}>My New posts:</div>
         <p></p>
+        {/* <Post {props.message = "I"}/> */}
         <Post message=' Hello, Friends!!' />
         <Post message=" It's me!" />
-        <Post />
-        <Post />
+        <Post name=' Angel K.' age=' 30, ' gender=' female' />
         <Post />
         <Post />
       </div>

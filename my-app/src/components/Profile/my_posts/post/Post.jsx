@@ -10,8 +10,10 @@ const Post = (props) => {
         {/* <img src={img_4} /> */}
         {props.message}
         {/* Post 1 */}
+        {props.name},{props.age}
+        {props.gender}
       </div>
-      <div className={s.like}>Like</div>
+      <div>Like!</div>
       <p></p>
     </div>
   );

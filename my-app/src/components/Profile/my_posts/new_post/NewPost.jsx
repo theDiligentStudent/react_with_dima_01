@@ -6,8 +6,8 @@ const NewPost = () => {
     <div>
       <div>
         <p></p>
-        <input value={5}/>
-        <input value='10'/>
+     <input value={5}/>
+     <input value='15'/>
         <p></p>
       </div>
       <div className={s.text}>Create New Post</div>
