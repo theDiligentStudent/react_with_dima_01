@@ -3,7 +3,8 @@ import NewPost from './new_post/NewPost.jsx';
 import Post from './post/Post.jsx';
 import s from './MyPosts.module.css';
 
-const MyPosts = () => {
+const MyPosts = (props) => {
+  // debugger
   return (
     <div>
       <div>
@@ -16,10 +17,10 @@ const MyPosts = () => {
         <div className={s.posts}>My New posts:</div>
         <p></p>
         {/* <Post {props.message = "I"}/> */}
-        <Post message=' Hello, Friends!!' />
-        <Post message=" It's me!" />
+        <Post message=' Hello, Friends!! ' Like=' 25' />
+        <Post message=" It's me! " Like=' 32' />
         <Post name=' Angel K.' age=' 30, ' gender=' female' />
-        <Post />
+        <Post name=' Paige D.' age=' 33, ' gender=' female' />
         <Post />
       </div>
 

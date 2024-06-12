@@ -15,7 +15,7 @@ const Profile = () => {
         <img src={image_3} />
       </div>
       <div>Ava and description</div>
-    <MyPosts/>
+      <MyPosts hi='Hi, Friends!!' />
     </div>
   );
 };
