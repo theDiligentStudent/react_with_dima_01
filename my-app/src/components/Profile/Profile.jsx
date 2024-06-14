@@ -9,13 +9,15 @@ console.log(s);
 //
 
 const Profile = () => {
+  // debugger
   return (
     <div className={s.content}>
       <div>
         <img src={image_3} />
       </div>
       <div>Ava and description</div>
-      <MyPosts hi='Hi, Friends!!' />
+      <MyPosts greet='Hello!' />
+      {/* <MyPosts  /> */}
     </div>
   );
 };

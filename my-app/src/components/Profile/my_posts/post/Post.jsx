@@ -3,25 +3,18 @@ import s from './Post.module.css';
 import img_4 from './../../../../images/project_1/image_4.jpg';
 
 const Post = (props) => {
-// debugger
-      console.log(props.message); 
-
-
+  console.log(props);
+  console.log(props.age);
+  // debugger
   return (
     <div className={s.item}>
       <div>
         <img className={s.image} src={img_4} />
-        {props.message}
-        {props.name},{props.age}
-        {props.gender}
+        {props.text}
+      {props.name}, {props.age}
       </div>
-    {/* Дима использует ВМЕСТО div тег <span></span> */}
-      {/* <div>
-        Like!
-        {props.Like}
-      </div> */}
       <span>
-         Like! 
+        Like
         {props.Like}
       </span>
       <p></p>
