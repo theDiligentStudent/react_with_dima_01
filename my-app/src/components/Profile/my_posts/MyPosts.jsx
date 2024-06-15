@@ -16,9 +16,8 @@ const MyPosts = (props) => {
         <p></p>
         <div className={s.posts}>My New posts:</div>
         <p></p>
-        {/* <Post {props.message = "I"}/> */}
-        <Post message=' Hello, Friends!! ' Like=' 25' />
-        <Post message=" It's me! " Like=' 32' />
+        <Post message=' Hello, Friends!! ' likesCount=' 25' />
+        <Post message=" It's me! " likesCount=' 32' />
         <Post name=' Angel K.' age=' 30, ' gender=' female' />
         <Post name=' Paige D.' age=' 33, ' gender=' female' />
         <Post />

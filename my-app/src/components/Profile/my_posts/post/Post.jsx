@@ -3,9 +3,8 @@ import s from './Post.module.css';
 import img_4 from './../../../../images/project_1/image_4.jpg';
 
 const Post = (props) => {
-// debugger
-      console.log(props.message); 
-
+  // debugger
+  console.log(props.message);
 
   return (
     <div className={s.item}>
@@ -15,15 +14,10 @@ const Post = (props) => {
         {props.name},{props.age}
         {props.gender}
       </div>
-    {/* Дима использует ВМЕСТО div тег <span></span> */}
-      {/* <div>
-        Like!
-        {props.Like}
-      </div> */}
-      <span>
-         Like! 
-        {props.Like}
-      </span>
+      <div>
+        <span className={s.span}>Like!</span>
+        {props.likesCount}
+      </div>
       <p></p>
     </div>
   );
