@@ -9,15 +9,15 @@ console.log(s);
 //
 
 const Profile = () => {
-  // debugger
+  // debugger   Здесь debugger ЛИШНИЙ  
   return (
     <div className={s.content}>
       <div>
         <img src={image_3} />
       </div>
       <div>Ava and description</div>
-      <MyPosts greet='Hello!' />
-      {/* <MyPosts  /> */}
+      {/* <MyPosts greet='Hello!' /> */}
+      <MyPosts  />
     </div>
   );
 };

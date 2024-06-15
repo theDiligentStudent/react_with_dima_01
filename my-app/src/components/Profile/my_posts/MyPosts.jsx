@@ -11,16 +11,17 @@ const MyPosts = (props) => {
         <p></p>
       </div>
       <div>
+        {/* {props.greet} */}
         <div>My Posts</div>
         <NewPost />
         <p></p>
         <div className={s.posts}>My New posts:</div>
         <p></p>
-        <Post text=' Hello, Friends!!' Like=' 70' />
-        <Post text=" It's me! - Your Friend - Important React!" Like=' 55' />
+        <Post text='Hi all!' Like=' 110' />
+        <Post text='This is where I learn React' Like=' 95' />
         <Post />
         <Post />
-        <Post name=' Katya S. ' age=' 43 ' Like=' 50' />
+        <Post name='Your Friend - React' age='10' Like=' 85'/>
       </div>
 
       <div>
