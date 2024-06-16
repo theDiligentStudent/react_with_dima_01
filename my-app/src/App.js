@@ -15,7 +15,10 @@ const App = () => {
       {/* <Profile /> */}
 
       {/* создаю НОВУЮ Ком.-у для Сообщений */}
-      <Dialogues />
+      <div className='wrapper-content'>
+        <Dialogues />
+
+      </div>
     </div>
   );
 };

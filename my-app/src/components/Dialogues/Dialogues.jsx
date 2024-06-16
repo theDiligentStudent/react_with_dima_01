@@ -2,9 +2,9 @@ import React from 'react';
 
 import s from './Dialogues.module.css';
 
-const Dialogues = () => {
+const Dialogues = (props) => {
   return (
-    <div className='wrapper-content'>
+    <div >
       <div className={s.messages_color}>Messages</div>
     </div>
   );
