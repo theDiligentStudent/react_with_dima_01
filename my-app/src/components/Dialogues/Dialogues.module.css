@@ -1,3 +1,21 @@
-.messages_color {
+/* .messages_color {
   color: deeppink
+} */
+
+.dialogues {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.names {
+  padding: 20px;
+}
+.name1.active {
+  color: cyan;
+}
+
+.messages {
+  padding: 20px;
+}
+.message {
 }
