@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import s from './Dialogues.module.css';
 
@@ -7,13 +8,27 @@ const Dialogues = (props) => {
     <div>
       <div className={s.dialogues}>
         <div className={s.names}>
-          <div className={s.name1 + ' ' + s.active}>Misha</div>
-          <div className={s.name1}>Dima</div>
-          <div className={s.name1}>Maksim</div>
-          <div className={s.name1}>Katya</div>
-          <div className={s.name1}>Dasha</div>
-          <div className={s.name1}>Victor</div>
-          <div className={s.name1}>Svetlana</div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/1'>Misha</NavLink>
+          </div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/2'>Dima</NavLink>
+          </div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/3'>Maksim</NavLink>
+          </div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/4'>Katya</NavLink>
+          </div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/5'>Alesia</NavLink>
+          </div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/6'>Victor</NavLink>
+          </div>
+          <div className={s.name1}>
+            <NavLink to='/Dialogues/7'>Svetlana</NavLink>
+          </div>
         </div>
         <div className={s.messages}>
           <div className={s.message}>Hello!!</div>

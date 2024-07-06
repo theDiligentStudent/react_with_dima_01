@@ -22,7 +22,7 @@ const Sidebar = () => {
         <NavLink to='/News' className={navData=>navData.isActive ? s.activeLink: s.item}>News</NavLink>
       </div>
       <div className={s.item}>
-        <NavLink to='/Guests'>Guests</NavLink>
+        <NavLink to='/Guests' className={navData=>navData.isActive ? s.activeLink: s.item}>Guests</NavLink>
       </div>
       <div className={s.item}>
         <NavLink to='/Settings' className={navData=>navData.isActive ? s.activeLink: s.item}>Settings</NavLink>
