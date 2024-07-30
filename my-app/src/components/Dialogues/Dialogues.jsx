@@ -3,13 +3,21 @@ import { NavLink } from 'react-router-dom';
 
 import s from './Dialogues.module.css';
 
-const Name = (props) => {
+const NameInterlocutor = (props) => {
+  let path = '/Dialogues/' + props.id;
   return (
     <div className={s.name1}>
-      <NavLink to={'/Dialogues/' + props.id}>{props.name}</NavLink>
+      <NavLink to={path}>{props.name}</NavLink>
     </div>
   );
 };
+
+const TextMessage = (props) => {
+  return(
+    <div className={s.message}>{props.textMessage}</div>
+
+  )
+}
 
 const Dialogues = (props) => {
   return (
@@ -19,17 +27,19 @@ const Dialogues = (props) => {
           {/* <div className={s.name1}>
             <NavLink to='/Dialogues/1'>Misha</NavLink>
           </div> */}
-          <Name name='Misha' id='1'/>
+          <NameInterlocutor name='Misha' id='1' />
           {/* <div className={s.name1}>
             <NavLink to='/Dialogues/2'>Dima</NavLink>
           </div> */}
-          <Name name='Dima' id='2'/>
-          <div className={s.name1}>
+          <NameInterlocutor name='Dima' id='2' />
+          {/* <div className={s.name1}>
             <NavLink to='/Dialogues/3'>Maksim</NavLink>
-          </div>
-          <div className={s.name1}>
+          </div> */}
+          <NameInterlocutor name='Maksim' id='3'/>
+          {/* <div className={s.name1}>
             <NavLink to='/Dialogues/4'>Katya</NavLink>
-          </div>
+          </div> */}
+          <NameInterlocutor name='Katya' id='4'/>
           <div className={s.name1}>
             <NavLink to='/Dialogues/5'>Alesia</NavLink>
           </div>
@@ -41,8 +51,10 @@ const Dialogues = (props) => {
           </div>
         </div>
         <div className={s.messages}>
-          <div className={s.message}>Hello!!</div>
-          <div className={s.message}>How are you?!</div>
+          {/* <div className={s.message}>Hello!!</div> */}
+          <TextMessage textMessage='Hello!!'/>
+          {/* <div className={s.message}>How are you?!</div> */}
+          <TextMessage textMessage='How are you?!'/>
           <div className={s.message}>How's your study??!</div>
           <div className={s.message}>How's your React?!</div>
           <div className={s.message}></div>
@@ -51,5 +63,6 @@ const Dialogues = (props) => {
     </div>
   );
 };
+
 
 export default Dialogues;
