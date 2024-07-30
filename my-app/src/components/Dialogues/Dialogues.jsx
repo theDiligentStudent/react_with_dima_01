@@ -40,9 +40,10 @@ const Dialogues = (props) => {
             <NavLink to='/Dialogues/4'>Katya</NavLink>
           </div> */}
           <NameInterlocutor name='Katya' id='4'/>
-          <div className={s.name1}>
+          {/* <div className={s.name1}>
             <NavLink to='/Dialogues/5'>Alesia</NavLink>
-          </div>
+          </div> */}
+          <NameInterlocutor name='Alecia' id='5'/>
           <div className={s.name1}>
             <NavLink to='/Dialogues/6'>Victor</NavLink>
           </div>
