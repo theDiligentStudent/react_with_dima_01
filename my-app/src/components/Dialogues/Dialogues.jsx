@@ -44,20 +44,24 @@ const Dialogues = (props) => {
             <NavLink to='/Dialogues/5'>Alesia</NavLink>
           </div> */}
           <NameInterlocutor name='Alecia' id='5'/>
-          <div className={s.name1}>
+          {/* <div className={s.name1}>
             <NavLink to='/Dialogues/6'>Victor</NavLink>
-          </div>
-          <div className={s.name1}>
+          </div> */}
+          <NameInterlocutor name='Victor' id='6'/>
+          {/* <div className={s.name1}>
             <NavLink to='/Dialogues/7'>Svetlana</NavLink>
-          </div>
+          </div> */}
+          <NameInterlocutor name='Svetlana' id='7'/>
         </div>
         <div className={s.messages}>
           {/* <div className={s.message}>Hello!!</div> */}
           <TextMessage textMessage='Hello!!'/>
           {/* <div className={s.message}>How are you?!</div> */}
           <TextMessage textMessage='How are you?!'/>
-          <div className={s.message}>How's your study??!</div>
-          <div className={s.message}>How's your React?!</div>
+          {/* <div className={s.message}>How's your study??!</div> */}
+          <TextMessage textMessage="How's your study??!"/>
+          {/* <div className={s.message}>How's your React?!</div> */}
+          <TextMessage textMessage="How's your React?!"/>
           <div className={s.message}></div>
         </div>
       </div>
